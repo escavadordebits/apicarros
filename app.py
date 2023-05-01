@@ -9,7 +9,7 @@ from logger import logger
 from schemas import *
 from flask_cors import CORS
 
-info = Info(title="Minha API", version="1.0.0")
+info = Info(title="API Cadastro de Carros Antigos", version="1.0.0")
 app = OpenAPI(__name__, info=info)
 CORS(app)
 
@@ -37,10 +37,10 @@ def add_carro(form: CarroSchema):
     Retorna uma representação dos carros e comentários associados.
     """
     carro = Carro(
-        nome=form.nome,
-        quantidade=form.quantidade,
+        modelo=form.modelo,
+        ano=form.ano,
         valor=form.valor)
-    logger.debug(f"Adicionando carro de nome: '{carro.nome}'")
+    logger.debug(f"Adicionando carro de nome: '{carro.modelo}'")
     try:
         # criando conexão com a base
         session = Session()
@@ -48,19 +48,19 @@ def add_carro(form: CarroSchema):
         session.add(carro)
         # efetivando o camando de adição de novo item na tabela
         session.commit()
-        logger.debug(f"Adicionado carro de nome: '{carro.nome}'")
+        logger.debug(f"Adicionado carro de nome: '{carro.modelo}'")
         return apresenta_Carro(carro), 200
 
     except IntegrityError as e:
         # como a duplicidade do nome é a provável razão do IntegrityError
         error_msg = "Carro de mesmo nome já salvo na base :/"
-        logger.warning(f"Erro ao adicionar carro '{carro.nome}', {error_msg}")
+        logger.warning(f"Erro ao adicionar carro '{carro.modelo}', {error_msg}")
         return {"mesage": error_msg}, 409
 
     except Exception as e:
         # caso um erro fora do previsto
         error_msg = "Não foi possível salvar novo item :/"
-        logger.warning(f"Erro ao adicionar carro '{carro.nome}', {error_msg}")
+        logger.warning(f"Erro ao adicionar carro '{carro.modelo}', {error_msg}")
         return {"mesage": error_msg}, 400
 
 
@@ -94,20 +94,20 @@ def get_carro(query: CarroBuscaSchema):
 
     Retorna uma representação dos carros e comentários associados.
     """
-    carro_id = query.id
-    logger.debug(f"Coletando dados sobre carro #{carro_id}")
+    carro_model = query.modelo
+    logger.debug(f"Coletando dados sobre carro #{carro_model}")
     # criando conexão com a base
     session = Session()
     # fazendo a busca
-    carro = session.query(Carro).filter(Carro.id == carro_id).first()
+    carro = session.query(Carro).filter(Carro.modelo == carro_model).all()
 
     if not carro:
         # se o carro não foi encontrado
         error_msg = "Carro não encontrado na base :/"
-        logger.warning(f"Erro ao buscar carro '{carro_id}', {error_msg}")
+        logger.warning(f"Erro ao buscar carro '{carro_modelo}', {error_msg}")
         return {"mesage": error_msg}, 404
     else:
-        logger.debug(f"Carro econtrado: '{carro.nome}'")
+        logger.debug(f"Carro econtrado: '{carro.modelo}'")
         # retorna a representação de carro
         return apresenta_Carro(carro), 200
 
@@ -119,7 +119,7 @@ def del_carro(query: CarroBuscaSchema):
 
     Retorna uma mensagem de confirmação da remoção.
     """
-    carro_nome = unquote(unquote(query.nome))
+    carro_nome = unquote(unquote(query.modelo))
     print(carro_nome)
     logger.debug(f"Deletando dados sobre carro #{carro_nome}")
     # criando conexão com a base
