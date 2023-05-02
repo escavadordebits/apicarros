@@ -1,87 +1,56 @@
-[2023-05-01 10:06:09,715] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:06:11,293] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:06:11,440] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:23,047] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:23,226] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:25,760] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:25,883] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:29,431] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:29,560] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:32,146] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:32,298] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:34,823] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:34,967] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:36,533] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:09:36,640] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:01,669] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:01,788] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:06,391] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:06,535] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:10,080] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:10,246] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:14,805] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:14,915] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:17,511] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:17,636] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:28,261] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:28,393] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:45,305] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:10:57,482] ERROR log_exception() L1449 Exception on /carro [GET] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
-Traceback (most recent call last):
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
-    return cors_after_request(app.make_response(f(*args, **kwargs)))
-                                                ^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 109, in wrapper
-    resp = _do_wrapper(
-           ^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
-    response = func(**request_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 98, in get_carro
-    logger.debug(f"Coletando dados sobre carro #{carro_id}")
-                                                 ^^^^^^^^
-NameError: name 'carro_id' is not defined
-[2023-05-01 10:10:57,499] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:10:57] "[35m[1mGET /carro?modelo=chevete HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:11:23,533] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:11:23,660] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:11:29,243] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:11:29,369] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 10:11:39,022] ERROR log_exception() L1449 Exception on /carro [GET] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
-Traceback (most recent call last):
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
-    return cors_after_request(app.make_response(f(*args, **kwargs)))
-                                                ^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 109, in wrapper
-    resp = _do_wrapper(
-           ^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
-    response = func(**request_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 110, in get_carro
-    logger.debug(f"Carro econtrado: '{carro.modelo}'")
-                                      ^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'modelo'
+[2023-05-01 22:14:26,003] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.35.33:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:14:26,008] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:15:00,497] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:15:00] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:15:00,576] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:15:00] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:15:14,080] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:15:14] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:15:14,091] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:15:14] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:15:32,578] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:15:32] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:15:32,590] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:15:32] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:19,184] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:19] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:19,194] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:19] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:29,282] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:29] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:29,293] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:29] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:32,343] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:32] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:46,987] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:46] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:47,000] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:46] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:48,209] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:48] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:17:49,391] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:17:49] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:05,481] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:05] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:05,492] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:05] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:16,199] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:16] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:16,207] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:16] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:22,218] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:22] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:22,227] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:22] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:49,512] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:49] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:49,521] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:49] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:18:51,369] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:18:51] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:19:37,247] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:19:37] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:19:37,256] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:19:37] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:19:50,628] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:19:50] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:19:50,637] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:19:50] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:19:58,379] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:19:58] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:19:58,387] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:19:58] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:10,979] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:10] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:10,988] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:10] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:26,150] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:26] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:26,160] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:26] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:30,395] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:30] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:32,465] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:32] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:32,474] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:32] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:35,885] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:35] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:38,097] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:38] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:20:38,107] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:20:38] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:21:14,623] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:21:14] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:21:14,632] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:21:14] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:08,515] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:08] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:08,526] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:08] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:11,600] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:11] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:13,746] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:13] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:13,755] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:13] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:18,836] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:18] "OPTIONS /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:18,845] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:18] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:20,191] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:20] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 22:24:22,211] INFO _log() L224  127.0.0.1 - - [01/May/2023 22:24:22] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 

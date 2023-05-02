@@ -17,7 +17,7 @@ class CarroBuscaSchema(BaseModel):
     """ Define como deve ser a estrutura que representa a busca. Que será
         feita apenas com base no nome do Carro.
     """
-    modelo: str = "Teste"
+    modelo: str = "Fusca"
 
 
 class ListagemCarrosSchema(BaseModel):
@@ -69,6 +69,6 @@ def apresenta_Carro(Carro: Carro):
         "modelo": Carro.modelo,
         "ano": Carro.ano,
         "valor": Carro.valor,
-        "total_cometarios": len(Carro.comentarios),
+        "total_comentarios": len(Carro.comentarios),
         "comentarios": [{"texto": c.texto} for c in Carro.comentarios]
     }

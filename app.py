@@ -139,7 +139,7 @@ def del_carro(query: CarroBuscaSchema):
         return {"mesage": error_msg}, 404
 
 
-@app.post('/cometario', tags=[comentario_tag],
+@app.post('/comentario', tags=[comentario_tag],
           responses={"200": CarroViewSchema, "404": ErrorSchema})
 def add_comentario(form: ComentarioSchema):
     """Adiciona de um novo comentário à um carros cadastrado na base identificado pelo id
