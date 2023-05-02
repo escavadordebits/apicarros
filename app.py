@@ -90,7 +90,7 @@ def get_carros():
 @app.get('/carro', tags=[carro_tag],
          responses={"200": CarroViewSchema, "404": ErrorSchema})
 def get_carro(query: CarroBuscaSchema):
-    """Faz a busca por um Carro a partir do id do carro
+    """Faz a busca por um Carro a partir do Modelo do carro
 
     Retorna uma representação dos carros e comentários associados.
     """
