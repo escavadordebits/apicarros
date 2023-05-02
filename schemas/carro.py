@@ -66,8 +66,8 @@ def apresenta_Carro(Carro: Carro):
     """
     return {
         "id": Carro.id,
-        "modelo": Carro.nome,
-        "ano": Carro.quantidade,
+        "modelo": Carro.modelo,
+        "ano": Carro.ano,
         "valor": Carro.valor,
         "total_cometarios": len(Carro.comentarios),
         "comentarios": [{"texto": c.texto} for c in Carro.comentarios]

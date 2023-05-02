@@ -1,0 +1,105 @@
+[2023-05-01 10:31:55,761] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:32:05,074] ERROR log_exception() L1449 Exception on /carro [DELETE] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 355, in wrapper
+    resp = _do_wrapper(
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 128, in del_carro
+    count = session.query(Carro).filter(Carro.nome == carro_nome).delete()
+                                        ^^^^^^^^^^
+AttributeError: type object 'Carro' has no attribute 'nome'
+[2023-05-01 10:32:05,096] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:32:05] "[35m[1mDELETE /carro?modelo=Opala HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:32:20,964] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:32:20] "GET /carros HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:32:44,728] ERROR log_exception() L1449 Exception on /carro [GET] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 112, in get_carro
+    return apresenta_Carro(carro), 200
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\schemas\carro.py", line 69, in apresenta_Carro
+    "modelo": Carro.nome,
+              ^^^^^^^^^^
+AttributeError: 'Carro' object has no attribute 'nome'
+[2023-05-01 10:32:44,736] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:32:44] "[35m[1mGET /carro?modelo=Opala HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:01,490] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:01] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:01,861] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:01] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:01,885] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:01] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:01,887] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:01] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:01,928] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:01] "[33mGET /openapi/static/css/swagger-ui.css.map HTTP/1.1[0m" 404 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:01,959] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:01] "[33mGET /openapi/static/js/swagger-ui-bundle.js.map HTTP/1.1[0m" 404 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:02,104] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:02] "[33mGET /openapi/static/js/swagger-ui-standalone-preset.js.map HTTP/1.1[0m" 404 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:02,279] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:02] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:02,363] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:02] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:33:20,725] ERROR log_exception() L1449 Exception on /carro [DELETE] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 355, in wrapper
+    resp = _do_wrapper(
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 128, in del_carro
+    count = session.query(Carro).filter(Carro.nome == carro_nome).delete()
+                                        ^^^^^^^^^^
+AttributeError: type object 'Carro' has no attribute 'nome'
+[2023-05-01 10:33:20,734] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:33:20] "[35m[1mDELETE /carro?modelo=Opala HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:33,222] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:33,346] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:39,051] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:39,208] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:42,801] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:42,949] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:34:46,518] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 

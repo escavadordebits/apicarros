@@ -1,5 +1,32 @@
-[2023-05-01 09:48:21,871] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:51:51,403] ERROR log_exception() L1449 Exception on /carro [POST] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+[2023-05-01 10:06:09,715] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:06:11,293] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:06:11,440] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:23,047] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:23,226] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:25,760] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:25,883] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:29,431] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:29,560] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:32,146] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:32,298] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:34,823] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:34,967] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:36,533] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:09:36,640] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:01,669] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:01,788] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:06,391] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:06,535] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:10,080] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:10,246] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:14,805] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:14,915] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:17,511] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:17,636] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:28,261] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:28,393] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:45,305] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:10:57,482] ERROR log_exception() L1449 Exception on /carro [GET] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
 Traceback (most recent call last):
   File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
     response = self.full_dispatch_request()
@@ -16,44 +43,22 @@ Traceback (most recent call last):
   File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 191, in wrapper
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 109, in wrapper
     resp = _do_wrapper(
            ^^^^^^^^^^^^
   File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
     response = func(**request_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 40, in add_carro
-    nome=form.nome,
-         ^^^^^^^^^
-AttributeError: 'CarroSchema' object has no attribute 'nome'
-[2023-05-01 09:51:51,423] INFO _log() L224  127.0.0.1 - - [01/May/2023 09:51:51] "[35m[1mPOST /carro HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:02,105] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:02,275] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:03,823] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:03,954] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:08,561] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:08,685] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:16,307] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:16,441] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:20,101] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:22,790] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:33,520] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:33,645] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:42,319] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:42,517] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:49,199] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:55:49,327] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:10,325] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:10,476] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:16,076] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:16,246] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:18,780] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:18,913] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:22,456] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:22,581] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:24,102] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:24,251] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:56:47,754] ERROR log_exception() L1449 Exception on /carro [POST] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 98, in get_carro
+    logger.debug(f"Coletando dados sobre carro #{carro_id}")
+                                                 ^^^^^^^^
+NameError: name 'carro_id' is not defined
+[2023-05-01 10:10:57,499] INFO _log() L224  127.0.0.1 - - [01/May/2023 10:10:57] "[35m[1mGET /carro?modelo=chevete HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:11:23,533] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:11:23,660] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:11:29,243] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:11:29,369] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-05-01 10:11:39,022] ERROR log_exception() L1449 Exception on /carro [GET] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
 Traceback (most recent call last):
   File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
     response = self.full_dispatch_request()
@@ -70,19 +75,13 @@ Traceback (most recent call last):
   File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 191, in wrapper
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 109, in wrapper
     resp = _do_wrapper(
            ^^^^^^^^^^^^
   File "C:\Python311\Lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
     response = func(**request_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 39, in add_carro
-    carro = Carro(
-            ^^^^^^
-TypeError: __init__() got an unexpected keyword argument 'nome'
-[2023-05-01 09:56:47,765] INFO _log() L224  127.0.0.1 - - [01/May/2023 09:56:47] "[35m[1mPOST /carro HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:58:35,299] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:58:35,474] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:58:43,155] INFO _log() L224   * Detected change in 'C:\\Projetos\\IPT\\desenvolvimento-full-stack\\desenvolvimento-full-stack-basico\\carros\\api\\app.py', reloading - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:58:43,295] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
-[2023-05-01 09:59:07,440] INFO _log() L224   * Restarting with stat - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+  File "C:\Projetos\IPT\desenvolvimento-full-stack\desenvolvimento-full-stack-basico\carros\api\app.py", line 110, in get_carro
+    logger.debug(f"Carro econtrado: '{carro.modelo}'")
+                                      ^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'modelo'

@@ -99,12 +99,12 @@ def get_carro(query: CarroBuscaSchema):
     # criando conexão com a base
     session = Session()
     # fazendo a busca
-    carro = session.query(Carro).filter(Carro.modelo == carro_model).all()
+    carro = session.query(Carro).filter(Carro.modelo == carro_model).first()
 
     if not carro:
         # se o carro não foi encontrado
         error_msg = "Carro não encontrado na base :/"
-        logger.warning(f"Erro ao buscar carro '{carro_modelo}', {error_msg}")
+        logger.warning(f"Erro ao buscar carro '{carro.modelo}', {error_msg}")
         return {"mesage": error_msg}, 404
     else:
         logger.debug(f"Carro econtrado: '{carro.modelo}'")
@@ -119,19 +119,19 @@ def del_carro(query: CarroBuscaSchema):
 
     Retorna uma mensagem de confirmação da remoção.
     """
-    carro_nome = unquote(unquote(query.modelo))
-    print(carro_nome)
-    logger.debug(f"Deletando dados sobre carro #{carro_nome}")
+    carro_modelo = unquote(unquote(query.modelo))
+    print(carro_modelo)
+    logger.debug(f"Deletando dados sobre carro #{carro_modelo}")
     # criando conexão com a base
     session = Session()
     # fazendo a remoção
-    count = session.query(Carro).filter(Carro.nome == carro_nome).delete()
+    count = session.query(Carro).filter(Carro.modelo == carro_modelo).delete()
     session.commit()
 
     if count:
         # retorna a representação da mensagem de confirmação
-        logger.debug(f"Deletado carro #{carro_nome}")
-        return {"mesage": "Carro removido", "id": carro_nome}
+        logger.debug(f"Deletado carro #{carro_modelo}")
+        return {"mesage": "Carro removido", "id": carro_modelo}
     else:
         # se o carro não foi encontrado
         error_msg = "Carro não encontrado na base :/"
